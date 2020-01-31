@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Filme</title>
+</head>
+<body>
+<form method="GET" action="/filme">
+    <label> Procure pelo nome:  </label>
+    <input type="text" name="nome">
+    <button>Procurar</button>
+</form>
+
+    <p th:text="${msg}"></p>
+
+    <a href="listaDeFilmes"></a><button>Filmes Cadastrados</button>
+</body>
+</html>

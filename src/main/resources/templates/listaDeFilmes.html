@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lkl</title>
+</head>
+<body>
+<div>
+    <div>
+        <p><strong>Nome:</strong> <span th:text="${filme.nome}"></span></p>
+        <p>Sinopse: <span th:text="${filme.sinopse}"></span></p>
+        <p>Genero: <span th:text="${filme.genero}"></span></p>
+        <p>Duração:<span th:text="${filme.duracao}"></span></p>
+        <p>Data Lançamento:<span th:date="${filme.dataLancamento}"></span></p>
+        <hr>
+    </div>
+</div>
+</body>
+</html>
